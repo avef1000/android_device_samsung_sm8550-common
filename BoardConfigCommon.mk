@@ -215,6 +215,9 @@ BOARD_AVB_ODM_ADD_HASHTREE_FOOTER_ARGS += --hash_algorithm sha256
 # Vibrator
 #$(call soong_config_set,samsungVibratorVars,duration_amplitude,true)
 
+# ViPER4AndroidFX
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_HOSTAPD_DRIVER := NL80211
